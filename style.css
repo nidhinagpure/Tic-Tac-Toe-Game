@@ -4,6 +4,7 @@ body{
     margin: 0;
 }
 .game-Name{
+    margin-top: 60px;
     text-align: center;
     font-size: 35px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -52,6 +53,13 @@ body{
 @media screen and (max-width: 500px){
     body {
         background-color:#ffcccc;
+    }
+    .button{
+        margin: 5px auto;
+        margin-left: 40%;
+    }
+    .game-Name{
+        margin-top: 10px;
     }
 }
 
